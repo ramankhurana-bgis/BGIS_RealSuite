@@ -1,0 +1,405 @@
+{
+  "name": "BGIS_RealSuite",
+  "description": "Test Suite Demo for BGIS",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.TeamFoundation.DistributedTask.Common.Contracts": "[16.184.0-preview]",
+    "Microsoft.TeamFoundationServer.Client": "[16.184.0-preview]",
+    "Microsoft.VisualStudio.Services.Client": "[16.184.0-preview]",
+    "Microsoft.VisualStudio.Services.InteractiveClient": "[16.184.0-preview]",
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Form.Activities": "[1.1.11]",
+    "UiPath.Jira.Activities": "[2.1.3]",
+    "UiPath.JiraSoftware.Activities": "[1.0.3.22730]",
+    "UiPath.MicrosoftOffice365.Activities": "[1.6.0]",
+    "UiPath.System.Activities": "[21.4.0-preview]",
+    "UiPath.Testing.Activities": "[1.3.1-preview]",
+    "UiPath.UIAutomation.Activities": "[21.4.1-preview]",
+    "UiPath.WebAPI.Activities": "[1.7.0]",
+    "UiPathTeam.Confluence.Activities": "[1.0.0.72]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.6.0",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6aadbce2-7505-4435-8b02-003dddd44898",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1.json",
+        "fileName": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Create.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b838e8ab-41ab-41eb-ae08-70f6bdef3ba1",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_10.json",
+        "fileName": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Search.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "00cf3b72-3054-4ff9-9014-e2c250b2222e",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_3.json",
+        "fileName": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Edit.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c33e5727-b7e4-417b-bce8-f9f52cd25f1b",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_2.json",
+        "fileName": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Delete.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0b4d0aa9-787e-410f-a3eb-48cdd1313f57",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_4.json",
+        "fileName": "BGIS\\Non_DFM\\RealSMS\\Non_DFM_RealSMS_Create.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "34a64608-4868-4279-bcc1-5e36e733003f",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_5.json",
+        "fileName": "BGIS\\Non_DFM\\RealSMS\\Non_DFM_RealSMS_Delete.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bd51713b-babe-46a9-8405-c7d2b6aef5d9",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_6.json",
+        "fileName": "BGIS\\Non_DFM\\RealSMS\\Non_DFM_RealSMS_Edit.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "36fa2db4-d828-4a6d-b573-e554c944d8df",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_7.json",
+        "fileName": "BGIS\\Non_DFM\\RealSMS\\Non_DFM_RealSMS_Search.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "47004078-e90f-4f1a-9de8-bb1c60588fa9",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_1.json",
+        "fileName": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Create_plus.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8c48fd78-124a-4a12-a26c-cdd14e35ae89",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_9.json",
+        "fileName": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Reset.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cb6134fb-7b4d-4944-a950-c564aaf2a8ca",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_8.json",
+        "fileName": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Edit_Associate.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9aac83a1-1e54-40de-8e3c-06a8492372a8",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_11.json",
+        "fileName": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_LabourManagement_Add.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2a90e7dd-1132-48d4-8bd3-c5dc528ab60d",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Sheet1_12.json",
+        "fileName": "BGIS_RealSuite\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Create.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fe0f053d-fe9b-481d-9425-ae38a8205ff9",
+        "fileName": "BGIS_RealSuite\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Create_plus.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "53b3b00f-d89c-4b42-b6cd-283e05ffa57b",
+        "dataVariationFilePath": ".variations\\RealSMS Details_LM_Add.json",
+        "fileName": "BGIS_RealSuite\\RealSMS\\Labour Management\\DFM_RealSMS_LabourManagement_Add.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d57321f0-0cf5-4d56-9bd1-6dfa63157954",
+        "fileName": "BGIS_RealSuite\\RealSMS\\Labour Management\\DFM_RealSMS_LabourManagement_Search.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "08824fc1-afc0-4a77-83ca-c4064641b536",
+        "dataVariationFilePath": ".variations\\RealSMS Details_CZ_Create.json",
+        "fileName": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Create.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e53e49a9-6971-4385-8c10-f715d83299fc",
+        "dataVariationFilePath": ".variations\\RealSMS Details_CZ_Delete.json",
+        "fileName": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Delete.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "985f77a8-9484-45ea-aaef-97a063dc9595",
+        "dataVariationFilePath": ".variations\\RealSMS Details_CZ_Edit.json",
+        "fileName": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Edit.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fce33b74-b393-4bad-b7c4-8240ed20332c",
+        "dataVariationFilePath": ".variations\\RealSMS Details_CZ_Edit_1.json",
+        "fileName": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Edit_Associate.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "be357d82-7540-461e-a141-07273603cba5",
+        "dataVariationFilePath": ".variations\\RealSMS Details_CZ_Edit_2.json",
+        "fileName": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Reset.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5d95d6d9-f86c-45a1-bbb0-41ac5b27d05c",
+        "dataVariationFilePath": ".variations\\RealSMS Details_CZ_Search.json",
+        "fileName": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Search.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f0fdf48b-6317-4753-bcc4-00f6c34cc748",
+        "dataVariationFilePath": ".variations\\RealSMS Details_CZ_Create_1.json",
+        "fileName": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Create_plus.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "54d343aa-5492-462a-b9f7-0c3022274973",
+        "dataVariationFilePath": ".variations\\RealSMS Details_LM_Add.json",
+        "fileName": "BGIS_RealSuite\\Non DFM\\RealSMS\\Labour Management\\Non_DFM_RealSMS_LabourManagement_Add.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bae21b18-8fc6-4fde-8535-f7e170d2ddac",
+        "dataVariationFilePath": ".variations\\RealSMS Details_LM_Search.json",
+        "fileName": "BGIS_RealSuite\\Non DFM\\RealSMS\\Labour Management\\Non_DFM_RealSMS_LabourManagement_Search.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bf871b44-6a1b-4bbe-b847-b83f17d85ca7",
+        "dataVariationFilePath": ".variations\\RealSMS Details_LM_Update.json",
+        "fileName": "BGIS_RealSuite\\Non DFM\\RealSMS\\Labour Management\\Non_DFM_RealSMS_LabourManagement_Update.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "694b2b02-989d-415f-b196-c984dbccb5cf",
+        "dataVariationFilePath": ".variations\\RealSMS Details_LM_Add_1.json",
+        "fileName": "BGIS_RealSuite\\Non DFM\\RealSMS\\Landlord Management\\Non_DFM_RealSMS_LandlordManagement_Add.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2c539823-f728-402c-b3a9-ef114f36f9e5",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Landlord_Update.json",
+        "fileName": "BGIS_RealSuite\\Non DFM\\RealSMS\\Landlord Management\\Non_DFM_RealSMS_LandlordManagement_Update.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0856f4f7-d070-4a5a-9dfc-7ec234c7efcd",
+        "dataVariationFilePath": ".variations\\RealSMS Details_Supplier_Update.json",
+        "fileName": "BGIS_RealSuite\\Non DFM\\RealSMS\\Supplier Management\\Non_DFM_RealSMS_Supplier_Update.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Create.xaml",
+      "uniqueId": "6aadbce2-7505-4435-8b02-003dddd44898",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Search.xaml",
+      "uniqueId": "b838e8ab-41ab-41eb-ae08-70f6bdef3ba1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Edit.xaml",
+      "uniqueId": "00cf3b72-3054-4ff9-9014-e2c250b2222e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Delete.xaml",
+      "uniqueId": "c33e5727-b7e4-417b-bce8-f9f52cd25f1b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS\\Non_DFM\\RealSMS\\Non_DFM_RealSMS_Create.xaml",
+      "uniqueId": "0b4d0aa9-787e-410f-a3eb-48cdd1313f57",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS\\Non_DFM\\RealSMS\\Non_DFM_RealSMS_Delete.xaml",
+      "uniqueId": "34a64608-4868-4279-bcc1-5e36e733003f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS\\Non_DFM\\RealSMS\\Non_DFM_RealSMS_Edit.xaml",
+      "uniqueId": "bd51713b-babe-46a9-8405-c7d2b6aef5d9",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS\\Non_DFM\\RealSMS\\Non_DFM_RealSMS_Search.xaml",
+      "uniqueId": "36fa2db4-d828-4a6d-b573-e554c944d8df",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Create_plus.xaml",
+      "uniqueId": "47004078-e90f-4f1a-9de8-bb1c60588fa9",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Reset.xaml",
+      "uniqueId": "8c48fd78-124a-4a12-a26c-cdd14e35ae89",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_Edit_Associate.xaml",
+      "uniqueId": "cb6134fb-7b4d-4944-a950-c564aaf2a8ca",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS\\DFM\\RealSMS\\DFM_RealSMS_LabourManagement_Add.xaml",
+      "uniqueId": "9aac83a1-1e54-40de-8e3c-06a8492372a8",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Create.xaml",
+      "uniqueId": "2a90e7dd-1132-48d4-8bd3-c5dc528ab60d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Create_plus.xaml",
+      "uniqueId": "fe0f053d-fe9b-481d-9425-ae38a8205ff9",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\RealSMS\\Labour Management\\DFM_RealSMS_LabourManagement_Add.xaml",
+      "uniqueId": "53b3b00f-d89c-4b42-b6cd-283e05ffa57b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\RealSMS\\Labour Management\\DFM_RealSMS_LabourManagement_Search.xaml",
+      "uniqueId": "d57321f0-0cf5-4d56-9bd1-6dfa63157954",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Create.xaml",
+      "uniqueId": "08824fc1-afc0-4a77-83ca-c4064641b536",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Delete.xaml",
+      "uniqueId": "e53e49a9-6971-4385-8c10-f715d83299fc",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Edit.xaml",
+      "uniqueId": "985f77a8-9484-45ea-aaef-97a063dc9595",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Edit_Associate.xaml",
+      "uniqueId": "fce33b74-b393-4bad-b7c4-8240ed20332c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Reset.xaml",
+      "uniqueId": "be357d82-7540-461e-a141-07273603cba5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Search.xaml",
+      "uniqueId": "5d95d6d9-f86c-45a1-bbb0-41ac5b27d05c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\DFM\\RealSMS\\ClientZone\\DFM_RealSMS_ClientZone_Create_plus.xaml",
+      "uniqueId": "f0fdf48b-6317-4753-bcc4-00f6c34cc748",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\Non DFM\\RealSMS\\Labour Management\\Non_DFM_RealSMS_LabourManagement_Add.xaml",
+      "uniqueId": "54d343aa-5492-462a-b9f7-0c3022274973",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\Non DFM\\RealSMS\\Labour Management\\Non_DFM_RealSMS_LabourManagement_Search.xaml",
+      "uniqueId": "bae21b18-8fc6-4fde-8535-f7e170d2ddac",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\Non DFM\\RealSMS\\Labour Management\\Non_DFM_RealSMS_LabourManagement_Update.xaml",
+      "uniqueId": "bf871b44-6a1b-4bbe-b847-b83f17d85ca7",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\Non DFM\\RealSMS\\Landlord Management\\Non_DFM_RealSMS_LandlordManagement_Add.xaml",
+      "uniqueId": "694b2b02-989d-415f-b196-c984dbccb5cf",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\Non DFM\\RealSMS\\Landlord Management\\Non_DFM_RealSMS_LandlordManagement_Update.xaml",
+      "uniqueId": "2c539823-f728-402c-b3a9-ef114f36f9e5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BGIS_RealSuite\\Non DFM\\RealSMS\\Supplier Management\\Non_DFM_RealSMS_Supplier_Update.xaml",
+      "uniqueId": "0856f4f7-d070-4a5a-9dfc-7ec234c7efcd",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
